@@ -1,0 +1,9 @@
+Package: reading-guide
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends: libc6, libgtk-3-0, libx11-6, libxext6
+Maintainer: Anna <your@email.com>
+Description: A horizontal reading guide for focus.
+ Keeps a customizable transparent line under the cursor to help with reading.
