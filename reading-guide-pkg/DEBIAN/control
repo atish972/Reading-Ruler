@@ -1,9 +1,16 @@
 Package: reading-guide
-Version: 1.0
+Version: 1.1
 Section: utils
 Priority: optional
 Architecture: amd64
-Depends: libc6, libgtk-3-0, libx11-6, libxext6
-Maintainer: Anna <your@email.com>
-Description: A horizontal reading guide for focus.
- Keeps a customizable transparent line under the cursor to help with reading.
+Depends: libc6, libgtk-3-0 (>= 3.22), libx11-6, libxext6
+Maintainer: Anna <a.tishelman.inbox@gmail.com>
+Description: High-performance horizontal reading guide for deep focus.
+ This utility provides a customizable, non-interactive overlay strip that 
+ tracks the mouse cursor tip with mathematical precision. 
+ .
+ Features include:
+  * Persistent settings: Automatically saves and restores configuration from ~/.reading_guide_config.
+  * Multi-threaded stability: Independent X11 display connections to prevent UI freezing.
+  * Visual focus modes: Adjustable masking (above, below, or full) and smooth shadow rendering.
+  * Surgical UI: Clear, labeled control panel for thickness, color, and opacity.

@@ -1,8 +1,10 @@
 [Desktop Entry]
 Name=Reading Guide
 Comment=Tactical Focus Tool
-Exec=/usr/bin/reading_guide
+Exec=/usr/bin/reading-guide
 Icon=/usr/share/pixmaps/reading-guide.png
 Type=Application
 Terminal=false
 Categories=Utility;Education;
+Path=
+StartupNotify=false
